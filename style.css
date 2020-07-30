@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*font-family: 'Bebas Neue', cursive;*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 62px;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+ul li a, ul li ,#menu2 a{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.header1,nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#subtitulo{
+    margin-top: -10px;
+    font-size: 1.1rem;
+}
+
+#Principal{
+    height: 70vh;
+    background-image: url(imagenes/vacaciones.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#vuelos{
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#info{
+    height: 600px;
+    width: 280px;
+    background-color: white;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.input1{
+height: 50px;
+width: 300px;
+outline: none;
+border: none;
+background-color: #F5F3F3;
+position: relative;
+}
+
+.avion{
+    font-size: 1.65em;
+    position: absolute;
+    left: 467px;
+    margin-top: 10px;
+    color: #B0A3A3;
+    transform: rotate(-45deg);
+}
+
+.avion2{
+    font-size: 1.65em;
+    position: absolute;
+    left: 822px;
+    margin-top: 10px;
+    color: #B0A3A3;
+    transform: rotate(-45deg);
+}
+
+#div1 .input1[type=text],#div1 .input2[type=text] {
+    padding-left: 40px;
+}
+
+.input2,#buscar{
+    margin-top: 10px;
+    width: 659px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #F5F3F3;
+
+}
+#buscar{
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+}
+
+#boton{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #F5F3F3;
+    font-size: 1.2em;
+}
+
+#div1{
+    width: 670px;
+    
+}
+
+button .flechas{
+    font-size: 18px;
+    color: #B0A3A3;
+}
+
+#algo{
+    height: 100vh;
+    width: 100vh;
+}
