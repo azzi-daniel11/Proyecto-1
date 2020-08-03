@@ -13,10 +13,12 @@
 		<div class="header1">
 			<div id="logo">
 				<h1>KAYAK</h1>
+				<!--Revisar semantica utilizar p en lugar de H2 para subtitulos (afecta SEO)-->
 				<h2 id="subtitulo">Parte de Dani.com</h2>
 			</div>	
 
 			<nav>
+				<!--Utilizar clases en lugar de ID para optimizar la implementacion de estilos y aprovechar las pseudoclases y pseudoelementos para no depender de una identificacion innecesaria-->
 				<ul id="menu">
 					<li><a href="#">Vuelos</a></li>
 					<li><a href="#">Hoteles</a></li>
@@ -28,7 +30,7 @@
 				</ul>
 		</nav>
 		</div>
-
+<!--Corregir indentacion-->
 	<div id="menu2">
 			<a href="#">Business</a>
 			<a href="#">Trips</a>
@@ -37,12 +39,15 @@
 	</header>
 
 	<section id="Principal">
-		
+		<!--Los campos Obligatoriamente deben estar dentro de un form para realizar peticiones al servidor-->
 		<div id="vuelos">
 			<h3>Buscar ofertas de vuelos</h3>
+			<!--Utiliza los Div para acomodar tu contenido dentro del formulario, recorda los elementos propios del mismo son de linea y linea-bloque-->
 			<div id="div1">
 			<input type="text" placeholder="hola" class="input1">	
+			<!--Aprovecha las clases CSS de las librerias que utilices para darle estilo a tu HTML-->
 			<i class="avion fas fa-plane"></i>
+			<!--No es necesario insertar un icono dentro del boton, al utilizar la clase de FA podes insertar el elemento mediante el pseudoelemento ::before-->
 			<button id="boton">
 			<i class="flechas fas fa-exchange-alt"></i>
 			</button>
@@ -52,11 +57,12 @@
 			<button id="buscar">Buscar</button>
 			</div>
 		</div>
+		<!---->
 		<div id="info">
 
 		</div>
 	</section>
-
+	<!--Aprovecha las etiquetas semanticas para organizar el contenido y su relacion con los demas elementos-->
 	<div id="algo">
 
 	</div>
