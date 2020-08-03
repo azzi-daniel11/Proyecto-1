@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: Bebas Neue, cursive;
+}
+body{
+	margin:0;
+	background-image: url(imagenes/vacaciones.jpg);
+	background-size: cover;
+}
+#header,
+nav,
+.menu,
+.menu li,
+main,
+article,
+section,
+#vuelos,
+#vuelos div,
+aside{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#header,
+#vuelos #buscar{
+	background-color: red;
+	padding: .5rem;
+	align-items: center;
+}
+.header h1,
+.header p,
+.menu{
+	margin:0;
+	padding:.2rem;
+	line-height: 1.2rem;
+}
+.menu{
+	list-style: none;
+	justify-content: space-between;
+}
+.menu:first-child{
+	margin-right: 5rem;
+}
+#buscar,
+.menu a{
+	display: block;
+	padding:.2rem .4rem;
+	color:white;
+	text-decoration: none;
+	border-top: 2px solid transparent;
+}
+.menu a:hover{
+	border-top: 2px solid white;
+}
+main{
+	margin: 2rem;
+	align-items: flex-start;
+}
+section:last-child{
+	width:calc(80vw + 2rem);
+}
+section{
+	width:50vw;
+}
+aside{
+	width:30vw;
+}
+section,
+aside{
+	background-color:white;
+	margin:1rem;
+	padding:2rem;
+}
+#vuelos input,
+#vuelos button,
+#vuelos .fa{
+	height: 50px;
+	outline: none;
+	border:1px solid transparent;
+	background-color: #F5F3F3;
+}
+#vuelos input{
+	padding-left: .5rem;
+}
+#vuelos div{
+	margin:.5rem 0;
+	position: relative;
+	width:calc(50% - 25px - .5rem);
+}
+#vuelos h2,
+input,
+#buscar{
+	width:100%;
+}
+.fa-plane{
+	position: absolute;
+	right: -1rem;
+	bottom:-.5rem;
+	font-size: 1.65rem;
+	transform: rotate(-45deg);
+	color:#B0A3A3;
+}
+.fas{
+	margin:.5rem;
+	width: 50px;
+	height: 50px;
+	font-style: 1.5rem;
+	color:#B0A3A3;
+}
+#vuelos .fa-exchange-alt:hover{
+	color:white;
+	background-color: darkgrey;
+}
+#vuelos input:focus{
+	border:1px solid black;
+}
+#vuelos #buscar:hover{
+	color:red;
+	border:2px solid;
+	background-color: transparent;
+}
